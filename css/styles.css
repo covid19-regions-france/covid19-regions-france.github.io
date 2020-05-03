@@ -1,0 +1,28 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #24292e;
+  background-color: #fff;
+  text-align: center;
+}
+
+.main {
+  width: 1050px;
+  margin: 0 auto;
+}
+
+.last-update-frame {
+  height: 18px;
+  overflow: hidden;
+}
+
+.last-update-frame iframe {
+  position: relative;
+  top: -63px;
+  width: 230px;
+}
+
+.frame-group {
+  display: flex;
+}
